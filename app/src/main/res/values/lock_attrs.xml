@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="LockView" tools:ignore="ResourceName">
+        <attr name="lockColumn" format="integer" />
+        <attr name="ringColor" format="color" />
+        <attr name="rightColor" format="color" />
+        <attr name="errorColor" format="color" />
+    </declare-styleable>
+
+</resources>
