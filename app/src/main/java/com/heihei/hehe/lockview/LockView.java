@@ -164,7 +164,7 @@ public class LockView extends View {
             }
         }
         // 绘制圆环
-        paint.setColor(ringColor);
+        paint.setColor(isRight ? ringColor : errorColor);
         if(points != null && !points.isEmpty()){
             paint.setStyle(Paint.Style.STROKE);
             paint.setStrokeWidth(points.get(0)[2] * 0.1f );
